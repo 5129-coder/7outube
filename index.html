@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MyTube - 2005 Style</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">MyTube</div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search">
+      <button>Search</button>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <h1>Featured Video</h1>
+    <div class="video-thumbnail" id="locked-video">
+      <img src="thumbnail.jpg" alt="Locked Video Thumbnail">
+      <p class="video-title">find the note first.mp3 (Locked)</p>
+      <p class="video-meta">Uploaded September 17, 2005 • 1 view</p>
+    </div>
+
+    <!-- Channel Info -->
+    <div class="channel-box">
+      <h2>Channel: <span class="channel-name">5-12-9_coder</span></h2>
+      <p class="channel-meta">Joined: September 2005</p>
+      <button class="subscribe-btn">Subscribe</button>
+    </div>
+  </main>
+
+  <!-- Notification -->
+  <div id="notification" class="hidden">
+    <p>This video is locked 🔒<br>Try again later.</p>
+    <button id="close-btn">Close</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
